@@ -1,0 +1,40 @@
+/* Ховаємо заголовок */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+body {
+  background: #e5e5e5;
+}
+.buttons {
+  list-style-type: none;
+}
+
+.button-name.button {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.03em;
+  background: #f5f4fa;
+}
+.button-name :hover,
+:focus {
+  background: #2196f3;
+  color: #ffffff;
+}
+
+.portfolio-project {
+  list-style-type: none;
+}
