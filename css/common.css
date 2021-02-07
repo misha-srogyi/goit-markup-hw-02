@@ -23,12 +23,16 @@
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: #212121;
   text-decoration: none;
 }
 
 .main-logo.color {
   color: #2196f3;
+}
+
+.main-logo.footer {
+  color: #ffffff;
 }
 
 .nav-list {

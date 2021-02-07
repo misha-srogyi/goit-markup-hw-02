@@ -25,8 +25,6 @@
   </head>
   <body>
     <!--Шапка сторінки-->
-
-    <!--Шапка сторінки-->
     <header class="page-header">
       <nav>
         <a href="/index.html" class="main-logo">
@@ -60,39 +58,103 @@
     </header>
     <!-- Main -->
     <main>
-      <section class="filters">
-        <ul class="buttons">
-          <li class="button-name">
-            <button type="button">Все</button>
-          </li>
-          <li class="button-name">
-            <button type="button">Веб-сайты</button>
-          </li>
-          <li class="button-name">
-            <button type="button">Приложения</button>
-          </li>
-          <li class="button-name">
-            <button type="button">Дизайн</button>
-          </li>
-          <li class="button-name">
-            <button type="button">Маркэтинг</button>
-          </li>
-        </ul>
-      </section>
-
       <!-- Портфоліо -->
-      <section>
-        <h2 class="visually-hidden">Портфолио</h2>
-        <ul class="portfolio-project">
-          <li>
-            <a href="#">
-              <img src="./images/portfolio-1.jpg" width="370" alt="Ноутбук" />
-              <h3>Технокряк</h3>
-              <p>Веб-сайт</p>
-            </a>
+
+      <section class="porfolio">
+        <h1 class="visually-hidden">Портфолио</h1>
+        <div class="filters">
+          <ul class="buttons">
+            <li class="button-name">
+              <button type="button">Все</button>
+            </li>
+            <li class="button-name">
+              <button type="button">Веб-сайты</button>
+            </li>
+            <li class="button-name">
+              <button type="button">Приложения</button>
+            </li>
+            <li class="button-name">
+              <button type="button">Дизайн</button>
+            </li>
+            <li class="button-name">
+              <button type="button">Маркэтинг</button>
+            </li>
+          </ul>
+        </div>
+
+        <ul class="portfolio-items">
+          <li class="item-portfolio-items web-site">
+            <img src="./images/Веб-сайт.jpg" width="370" alt="Ноутбук" />
+            <h2>Технокряк</h2>
+            <p>Веб-сайт</p>
+          </li>
+          <li class="item-portfolio-items poster">
+            <img
+              src="./images/Постер.jpg"
+              width="370"
+              alt="Постер New Orlean vs Golden Star"
+            />
+            <h2>Постер New Orlean vs Golden Star</h2>
+            <p>Дизайн</p>
+          </li>
+          <li class="item-portfolio-items restorant">
+            <img
+              src="./images/Ресторан.jpg"
+              width="370"
+              alt="Ресторан Seafood"
+            />
+            <h2>Ресторан Seafood</h2>
+            <p>Приложение</p>
+          </li>
+          <li class="item-portfolio-items pj-prime">
+            <img src="./images/Проект-Prime.jpg" alt="Проект Prime" />
+            <h2>Проект Prime</h2>
+            <p>Маркетинг</p>
+          </li>
+          <li class="item-portfolio-items pj-boxes">
+            <img src="./images/Проект-Boxes.jpg" alt="Проект Boxes" />
+            <h2>Проект Boxes</h2>
+            <p>Приложение</p>
+          </li>
+          <li class="item-portfolio-items web-site2">
+            <img
+              src="./images/Веб-сайт-2.jpg"
+              alt="Inspiration has no Borders"
+            />
+            <h2>Inspiration has no Borders</h2>
+            <p>Веб-сайт</p>
+          </li>
+          <li class="item-portfolio-items design">
+            <img src="./images/Дизайн.jpg" alt="Издание Limited Edition" />
+            <h2>Издание Limited Edition</h2>
+            <p>Дизайн</p>
+          </li>
+          <li class="item-portfolio-items pj-lab">
+            <img src="./images/Проект-LAB.jpg" alt="Проект LAB" />
+            <h2>Проект LAB</h2>
+            <p>Маркетинг</p>
+          </li>
+          <li class="item-portfolio-items app">
+            <img src="./images/Програма.jpg" alt="Growing Business" />
+            <h2>Growing Business</h2>
+            <p>Приложение</p>
           </li>
         </ul>
       </section>
     </main>
+    <!-- Підвал сторінки -->
+
+    <footer class="footer" id="contacts">
+      <a href="/index.html" class="main-logo footer">
+        <span class="main-logo color">Web</span>Studio</a
+      >
+      <address>
+        <p class="contacts-address">г.Киев, пр-т Леси Украинки, 26</p>
+        <a class="contacts-item" href="mailto:info@example.com"
+          >info@example.com</a
+        >
+        <a class="contacts-item" href="tel:+380991111111">+380991111111</a>
+      </address>
+    </footer>
   </body>
 </html>
