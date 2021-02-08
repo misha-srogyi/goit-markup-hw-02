@@ -13,13 +13,9 @@
   overflow: hidden;
 }
 
-body {
-  background: #e5e5e5;
-}
-
 /* Hero */
 .main-section {
-  background: #2f303a;
+  background-color: var(--background-color-hero);
 }
 /* Заголовок */
 .main-title {
@@ -28,7 +24,7 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 60px;
-  color: #ffffff;
+  color: var(--white-text);
 }
 
 /* Link */
@@ -49,8 +45,8 @@ body {
   font-weight: bold;
   font-size: 16px;
   line-height: 30px;
-  background-color: #2196f3;
-  color: #ffffff;
+  background-color: var(--blue-text);
+  color: var(--white-text);
 }
 
 /*Наші Переваги Заголовок */
@@ -60,7 +56,7 @@ body {
   font-weight: bold;
   font-size: 14px;
   line-height: 16px;
-  color: #212121;
+  color: var(--black-text);
 }
 
 /* Наші Переваги Текст */
@@ -70,7 +66,7 @@ body {
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-  color: #757575;
+  color: var(--grey-text);
 }
 
 /* Чим ми займаємось */
@@ -80,10 +76,13 @@ body {
   font-weight: bold;
   font-size: 36px;
   line-height: 42px;
-  color: #212121;
+  color: var(--black-text);
 }
 
 /* Наша Команда */
+.our-team {
+  background-color: var(--background-color-team);
+}
 .our-team-title {
   font-family: Roboto;
   font-style: normal;
@@ -91,7 +90,7 @@ body {
   font-size: 36px;
   line-height: 42px;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--black-text);
 }
 
 .name-employee {
@@ -101,7 +100,7 @@ body {
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--black-text);
 }
 
 .position-employee {
@@ -111,5 +110,5 @@ body {
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--grey-text);
 }

@@ -13,9 +13,6 @@
   overflow: hidden;
 }
 
-body {
-  background: #e5e5e5;
-}
 .buttons {
   list-style-type: none;
 }
@@ -27,12 +24,12 @@ body {
   font-size: 16px;
   line-height: 26px;
   letter-spacing: 0.03em;
-  background: #f5f4fa;
+  background: var(--background-button);
 }
 .button-name :hover,
 :focus {
-  background: #2196f3;
-  color: #ffffff;
+  background: var(--blue-text);
+  color: var(--white-text);
 }
 
 .portfolio-items {
@@ -45,7 +42,7 @@ body {
   font-size: 18px;
   line-height: 36px;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--black-text);
 }
 .item-portfolio-items > p {
   font-family: Roboto;
@@ -54,5 +51,5 @@ body {
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--grey-text);
 }
