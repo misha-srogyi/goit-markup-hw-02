@@ -26,50 +26,61 @@
   </head>
   <body>
     <!--Шапка сторінки-->
-    <header class="page-header">
-      <nav>
-        <a href="/index.html" class="main-logo">
-          <span class="main-logo color">Web</span>Studio</a
-        >
-        <ul class="nav-list">
+    <header class="header">
+      <!-- Conteiner -->
+      <div class="conteiner">
+        <nav class="header-nav">
+          <a href="/index.html" class="main-logo">
+            <span class="main-logo color">Web</span>Studio</a
+          >
+          <ul class="nav-list">
+            <li>
+              <a class="nav-list-link studio" href="./index.html">Студия</a>
+            </li>
+            <li>
+              <a class="nav-list-link portfolio" href="./portfolio.html"
+                >Портфолио</a
+              >
+            </li>
+            <li>
+              <a class="nav-list-link contacts" href="#contacts">Контакти</a>
+            </li>
+          </ul>
+        </nav>
+
+        <ul class="nav-contacts">
           <li>
-            <a class="nav-list-link studio" href="./index.html">Студия</a>
-          </li>
-          <li>
-            <a class="nav-list-link portfolio" href="./portfolio.html"
-              >Портфолио</a
+            <a class="contacts-item header" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
             >
           </li>
           <li>
-            <a class="nav-list-link contacts" href="#contacts">Контакти</a>
+            <a class="contacts-item header" href="tel:+380961111111"
+              >+380961111111</a
+            >
           </li>
         </ul>
-      </nav>
-
-      <ul class="nav-contacts">
-        <li>
-          <a class="contacts-item header" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a class="contacts-item header" href="tel:+380961111111"
-            >+380961111111</a
-          >
-        </li>
-      </ul>
+      </div>
+      <!-- Conteiner -->
     </header>
 
     <!-- Main -->
 
     <main>
       <section class="main-section">
-        <h1 class="main-title">
-          Эффективные решения для<br />
-          вашего бизнеса
-        </h1>
-        <button type="button" class="order-button">Заказать услугу</button>
-        <!-- <a class="order-link" href="">Заказать услугу</a> -->
+        <!-- Conteiner -->
+        <div class="conteiner">
+          <h1 class="main-title">
+            Эффективные решения для<br />
+            вашего бизнеса
+          </h1>
+        </div>
+        <!-- Conteiner -->
+        <div class="conteiner">
+          <button type="button" class="order-button">Заказать услугу</button>
+          <!-- <a class="order-link" href="">Заказать услугу</a> -->
+        </div>
+        <!-- Conteiner -->
       </section>
 
       <!-- Наші особливості -->
@@ -137,7 +148,7 @@
               alt="Игорь Демяненко"
             />
             <h3 class="name-employee">Игорь Демяненко</h3>
-            <p>Product Designer</p>
+            <p class="position-employee">Product Designer</p>
           </li>
           <li>
             <img

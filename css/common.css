@@ -1,3 +1,5 @@
+/* Прихований заголовок */
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -12,16 +14,17 @@
   overflow: hidden;
 }
 /* Header */
-/* .page-header {
+/* .header {
   background: #ffffff;
 } */
+
 /* Navigation */
 .main-logo {
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--black-text);
   text-decoration: none;
@@ -42,8 +45,8 @@
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
-  line-height: 16px;
   font-size: 14px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   text-align: left;
   color: var(--black-text);
@@ -56,10 +59,10 @@
 }
 .contacts-item {
   font-family: Roboto;
-  font-size: 14px;
   font-style: normal;
   font-weight: 500;
-  line-height: 16px;
+  font-size: 14px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--white-text-op60);
   text-decoration: none;
@@ -79,7 +82,7 @@
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--white-text);
 }
